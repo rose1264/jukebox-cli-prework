@@ -40,12 +40,21 @@ def exit_jukebox
   puts "Goodbye"
 end
 
+<<<<<<< HEAD
 def run(songs)
   help
   response = ""
   while response
     puts "Please enter a command:"
     response = gets.chomp
+=======
+def run
+  help
+  puts "Please enter a command:"
+  response = ""
+  while response
+    puts "Please enter a command:"
+>>>>>>> cab0373e8aefe111d152481fed08a0c76eae3f0e
     case response
     when "list"
       list(songs)
@@ -59,3 +68,8 @@ def run(songs)
     end
   end
 end
+<<<<<<< HEAD
+=======
+
+run
+>>>>>>> cab0373e8aefe111d152481fed08a0c76eae3f0e
